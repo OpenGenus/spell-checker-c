@@ -53,11 +53,9 @@ int main()
                 int num_suggestions = suggest(word, suggestions);
                 if (num_suggestions > 0)
                 {
-                    // printf("\033[1;35mDid you mean: \033[0m");
                     for (int i = 0; i < num_suggestions; i++)
                     {
                         strcpy(display_suggest[incrt_words][i + 1], suggestions[i]);
-                        // printf("\033[1;32m%s\033[0m  ", suggestions[i]);
                     }
                 }
                 incrt_words++;
@@ -81,11 +79,9 @@ int main()
             int num_suggestions = suggest(word, suggestions);
             if (num_suggestions > 0)
             {
-                // printf("\033[1;35mDid you mean: \033[0m");
                 for (int i = 0; i < num_suggestions; i++)
                 {
                     strcpy(display_suggest[incrt_words][i + 1], suggestions[i]);
-                    // printf("\033[1;32m%s\033[0m ", suggestions[i]);
                 }
             }
             incrt_words++;

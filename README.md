@@ -9,4 +9,4 @@ This is the sample output of the code:
 
 ![image](https://user-images.githubusercontent.com/72661784/214550370-cceb6f6e-835c-4dfe-a66e-89fce04e04b8.png)
 
-To know more about the code refer to the article I have written on it.
+To know more about the code refer to the [article](https://iq.opengenus.org/spell-checker-in-c/) I have written on it.
